@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calibri', 'Arial', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.name {
+    font-size: 28px;
+    color: #1a1a1a;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    font-size: 0.95rem;
+    color: #4a4a4a;
+}
+
+.section {
+    margin-bottom: 1.8rem;
+}
+
+.section-title {
+    font-size: 18px;
+    color: #2c3e50;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid #2c3e50;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.professional-summary {
+    margin-bottom: 1.5rem;
+    color: #4a4a4a;
+    line-height: 1.6;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.skill-category {
+    margin-bottom: 1rem;
+}
+
+.skill-category h4 {
+    color: #2c3e50;
+    margin-bottom: 0.4rem;
+    font-weight: bold;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.experience-item {
+    margin-bottom: 1.5rem;
+}
+
+.experience-header {
+    margin-bottom: 0.5rem;
+}
+
+.job-title {
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 1.1rem;
+}
+
+.company-name {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.date-location {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.2rem;
+}
+
+li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #2c3e50;
+}
+
+.links {
+    margin-top: 1rem;
+}
+
+.links a {
+    color: #2c3e50;
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+
+@media print {
+    .container {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    body {
+        background: white;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
