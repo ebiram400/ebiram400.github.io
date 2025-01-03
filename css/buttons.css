@@ -1,0 +1,55 @@
+.buttons {
+    width: 160px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2rem;
+    right: 2%;
+}
+
+.print {
+    vertical-align: middle;
+}
+
+.button {
+    background:  linear-gradient(140deg, #7f8c8d 0%, #4a4a4a 50%, #1a1a1a 75%);;
+    margin: .25rem;
+    padding: 3px;
+    border-radius: 15px;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.small {
+    display: none;
+}
+
+.large {
+    display: block;
+}
+
+@media screen and (max-width:765px) {
+    .buttons {
+        width: 30px;
+        top: 8px;
+        right: 12px;
+    }
+
+    .print {
+        width: 20px;
+    }
+
+    .large {
+        display: none;
+    }
+
+    .small {
+        display: block;
+    }
+}

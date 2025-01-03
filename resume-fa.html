@@ -5,10 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./logo.jpg">
-    <link rel="stylesheet" href="./resume-fa.css">
+    <link rel="stylesheet" href="./css/resume-fa.css">
+    <link rel="stylesheet" href="./css/buttons.css">
     <title>رزومه ابراهیم رحیمی</title>
 </head>
 <body>
+    <div class="buttons">
+        <div class="button" id="print"><img class="print" src="./img/print.png" alt="print resume"></div>
+        <div class="button" id="de"><span class="large">Deutsche Sprache</span><span class="small">DE</span></div>
+        <div class="button" id="en"><span class="large">Language English</span><span class="small">EN</span></div>
+    </div>
     <div class="container">
         <header class="header">
             <h1 class="name">ابراهیم رحیمی</h1>
@@ -19,7 +25,7 @@
             <h3 class="section-title">اطلاعات شخصی</h3>
             <div class="info-grid">
                 <div class="info-item">
-                    <strong>ترجیحات مکانی</strong> تهران / کرج
+                    <strong>ترجیحات مکانی:</strong> تهران / کرج
                 </div>
                 <div class="info-item">
                     <strong>تاریخ تولد:</strong> ۲۳ شهریور ۱۳۷۹
@@ -50,6 +56,8 @@
                 <span class="skill-tag">NoSQL</span>
                 <span class="skill-tag">Machine Learning</span>
                 <span class="skill-tag">Django</span>
+                <span class="skill-tag">CCNA</span>
+                <span class="skill-tag">MTCNA</span>
             </div>
         </section>
 
@@ -86,22 +94,23 @@
         </section>
 
         <section class="section">
-            <h3 class="section-title">مهارت‌های شبکه</h3>
+            <h3 class="section-title">لینک ها و پروژه ها</h3>
             <div class="experience-item">
+                <h5 class="experience-title">لینک هر پروژه برای اطلاع از تکنولوژی و چالش ها، کنار آن قرار گرفته است.</h5>
                 <ul>
-                    <li>CCNA (در حال یادگیری)</li>
-                    <li>MTCNA (در حال یادگیری)</li>
+                    <li> برنامه وب مشاوره به مشتریان و گزارش دهی به کارفرمایان برای گروه ساخت و ساز با ReactJS و Laravel به عنوان یک اپلیکیشن REST پیاده سازی کردم.</li><a href="">github.com/ebiram400/abc <img src="./img/link.svg" style="vertical-align: middle;"></a>
+                    <li> سرویس مدیریت اشتراک با Spring Boot پیاده سازی کردم.</li><a href="">github.com/ebiram400/abc <img src="./img/link.svg" style="vertical-align: middle;"></a>
+                    <li>نرم افزار مدیریت پروژه ساخت و ساز چند پلتفرمی با ویژگی های حسابداری پروژه ساختمانی، ثبت نام ورود و خروج کارکنان و ... را با استفاده از پایگاه داده ElectronJS و MySQL پیاده سازی کردم.</li><a href="" >github.com/ebiram400/abc <img src="./img/link.svg" style="vertical-align: middle;"></a>
+                    <li>پژوهش هایی را روی الگوریتم کلونی مورچه ها (یادگیری ماشینی) برای مدیریت وظایف انجام دادم.</li><a href="" >github.com/ebiram400/abc <img src="./img/link.svg" style="vertical-align: middle;"></a>
+                    <li>در یک پروژه گروهی اپلیکیشن شبکه اجتماعی در بستر وب مشارکت کردم. در بخش فرانت اند از کامپوننت های آماده تیلویند با تغییراتی استفاده کردم و درخواست های API را تنظیم کردم.</li><a href="" >github.com/ebiram400/abc <img src="./img/link.svg" style="vertical-align: middle;"></a>
                 </ul>
             </div>
-        </section>
-
-        <section class="section">
-            <h3 class="section-title">لینک‌ها</h3>
             <div class="links">
-                <a href="https://github.com/ebiram400" target="_blank">GitHub.com/Ebiram400</a>
-                <a href="https://linkedin.com/in/ebrahim-rahimi-b37ab5229" target="_blank">LinkedIn.com/in/Ebiram400</a>
+                <a href="mailto:Ebiram400@gmail.com">ایمیل: Ebiram400@gmail.com</a>
+                <a href="https://linkedin.com/in/Ebiram400">لینکدین: linkedin.com/in/Ebiram400</a>
             </div>
         </section>
     </div>
+    <script src="./js/buttons.js"></script>
 </body>
 </html>

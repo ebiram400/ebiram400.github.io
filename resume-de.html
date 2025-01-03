@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./logo.jpg">
-    <link rel="stylesheet" href="./resume-de.css">
+    <link rel="icon" href="./img/logo.jpg">
+    <link rel="stylesheet" href="./css/resume-de.css">
+    <link rel="stylesheet" href="./css/buttons.css">
     <title>Lebenslauf - Ebrahim Rahimi</title>
-    <style>
-        
-        
-    </style>
 </head>
 <body>
+    <div class="buttons">
+        <div class="button" id="print"><img class="print" src="./img/print.png" alt="print resume"></div>
+        <div class="button" id="en"><span class="large">Language English</span><span class="small">EN</span></div>
+        <div class="button" id="fa"><span class="large">زبان فارسی</span><span class="small">fa</span></div>
+    </div>
     <div class="container">
         <header class="header">
             <div class="header-content">
@@ -20,13 +22,27 @@
                 <h2>Software-Entwickler</h2>
                 <div class="contact-info">
                     <p>Geboren am: 14. September 2000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>Nationalität: Iranisch</span></p>
-                    <p><a href="mailto:Ebiram400@gmail.com" style="text-decoration: none;"><span style="color: #2c3e50;">E-Mail:</span> Ebiram400@gmail.com </a>
-                        <a href="linkedin.com/in/Ebiram400" style="text-decoration: none; margin:5rem;"><span style="color: #2c3e50;">LinkedIn:</span> linkedin.com/in/Ebiram400</a>
-                        <a href="github.com/Ebiram400" style="text-decoration: none;"><span style="color: #2c3e50;">GitHub:</span> github.com/Ebiram400</a>
-                    </p>
+                    <div style="display:flex; flex-wrap:wrap; column-gap:25px;">
+                        <div>
+							<img style="vertical-align:top;" src="./img/mail.png" width="20px" height="20px">
+							<a href="mailto:Ebiram400@gmail.com" style="text-decoration:none; color:black;">Ebiram400@gmail.com</a>
+						</div>
+						<div>
+							<img style="vertical-align:top;" src="./img/in.png" width="20px" height="20px">
+							<a href="https://linkedin.com/in/Ebiram400" style="text-decoration:none; color:black;">linkedin.com/in/Ebiram400</a>
+						</div>
+                    </div>
                 </div>
             </div>
         </header>
+
+        <section class="section">
+            <h3 class="section-title">Berufliche Zusammenfassung</h3>
+            <p class="professional-summary">
+                Ergebnisorientierter Softwareingenieur mit fundiertem Hintergrund in Full-Stack-Entwicklung und Schwerpunkt auf Backend-Technologien. Nachgewiesene Expertise in modernen Web-Frameworks. 
+                Bewährte Fähigkeit, neue Technologien zu erlernen und umzusetzen, mit einer erfolgreichen Bilanz in der Projektabwicklung und effizienten Problemlösung.
+            </p>
+        </section>
 
         <section class="section">
             <h3 class="section-title">Berufliche Qualifikationen</h3>
@@ -142,5 +158,20 @@
             </div>
         </section>
 
+        <section class="section">
+            <h3 class="section-title">Projekte</h3>
+            <div class="experience-item">
+                <div style="font-size:small; margin-bottom:15px;">Der Link zu jedem Projekt wird daneben angezeigt, damit Sie sich über die Technologie und Herausforderungen dieses Projekts informieren können.</div>
+                <ul>
+                    <li>Ich habe eine Webanwendung mit der Möglichkeit zur Kundenberatung und Berichterstattung an Arbeitgeber für eine Baugruppe mit ReactJS und Laravel als REST-Anwendung implementiert.</li></li><a href="" ><img src="./img/link.svg" style="vertical-align: middle;"> github.com/ebiram400/abc </a>
+                    <li>Ich habe einen Abonnementverwaltungsdienst mit Spring Boot und MVC-Architektur implementiert.</li></li><a href="" ><img src="./img/link.svg" style="vertical-align: middle;"> github.com/ebiram400/abc </a>
+                    <li>Ich habe eine plattformübergreifende Bauprojektmanagementsoftware mit Funktionen zur Bauprojektbuchhaltung, Mitarbeiterein- und -austrittsregistrierung usw. mit ElectronJS und MySQL-Datenbank implementiert.</li></li><a href="" ><img src="./img/link.svg" style="vertical-align: middle;"> github.com/ebiram400/abc </a>
+                    <li>Ich habe den Ant Colony-Algorithmus (Maschinelles Lernen) für die Aufgabenverwaltung erforscht.</li></li><a href="" ><img src="./img/link.svg" style="vertical-align: middle;"> github.com/ebiram400/abc </a>
+                    <li>Ich habe an einem Gruppenprojekt zu einer webbasierten Social-Networking-Anwendung teilgenommen. Im Frontend habe ich die vorgefertigten Vorlagen von Tailwind mit einigen Änderungen verwendet. Außerdem habe ich die API-Anfragen konfiguriert.</li></li><a href="" ><img src="./img/link.svg" style="vertical-align: middle;"> github.com/ebiram400/abc </a>
+                </ul>
+            </div>
+        </section>
+
     </div>
+    <script src="./js/buttons.js"></script>
 </body>
