@@ -18,4 +18,16 @@ document.getElementById("print").addEventListener('click',e => {
     window.print();
 
     document.body.innerHTML = body;
+
+    document.getElementById('fa')?.addEventListener('click',e => {
+        location.replace('./resume-fa.html')
+    })
+    
+    document.getElementById("en")?.addEventListener('click',e => {
+        location.replace('./index.html')
+    })
+    
+    document.getElementById("de")?.addEventListener('click',e => {
+        location.replace('./resume-de.html')
+    })
 })
