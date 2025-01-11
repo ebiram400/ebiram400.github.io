@@ -1,23 +1,12 @@
 
-# سلام! من ابراهیم رحیمی هستم 👋
-
-**محل زندگی:** مشهد، ایران  
-**زبان:** فارسی  
-**وضعیت:** دانشجوی سابق مهندسی کامپیوتر، در حال حاضر به‌صورت مهمان در کلاس‌ها شرکت می‌کنم تا به یک برنامه‌نویس و مهندس نرم‌افزار تبدیل شوم.
-
----
-
-<!-- درباره من -->
-## درباره من
-
-من به توسعه نرم‌افزار و شبکه علاقه‌مندم و در مسیر یادگیری تکنولوژی‌های مختلف برای تبدیل شدن به یک مهندس نرم‌افزار حرفه‌ای هستم. هدف من ایجاد اپلیکیشن‌های متنوع برای کسب درآمد و تأسیس یک شرکت پیشگام در علم و فناوری است.
+# hey! I am Ebrahim Rahimi 👋
 
 ---
 
 <!-- مهارت‌ها -->
-## مهارت‌ها
+## skills
 
-### زبان‌های برنامه‌نویسی و فریم‌ورک‌ها
+### language and freamwork
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
@@ -27,7 +16,7 @@
 ![Electron.js](https://img.shields.io/badge/Electron.js-47848F?style=for-the-badge&logo=electron&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
-### ابزارها و تکنولوژی‌ها
+### tools
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
@@ -35,42 +24,34 @@
 ![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
-### شبکه و امنیت
+### network
 
-- آشنایی با مفاهیم **CCNA** و **MTCNA** (در حال تکمیل دوره‌ها)
-- آشنایی با امنیت وب، پایگاه داده و شبکه
+- introduction to **CCNA** و **MTCNA** (in course)
+- Introduction to web, database and network security
 
 ---
 
 <!-- پروژه‌ها -->
-## پروژه‌ها
+## projects
 
-- **سیستم مدیریت کتابخانه:** توسعه‌یافته با استفاده از PHP و MySQL.
-- **پلتفرم شبکه اجتماعی:** با استفاده از Vue.js و Tailwind CSS.
-- **پروژه‌های آزمایشی در زمینه ای‌کامرس:** تحلیل نیاز مشتریان و پیاده‌سازی اولیه.
+- **Library Management System:** Developed using PHP and MySQL.
+- **Social Networking Platform:** Using Vue.js and Tailwind CSS.
+- **E-Commerce Pilot Projects:** Customer Needs Analysis and Initial Implementation.
 
 ---
 
 <!-- اهداف و برنامه‌های آینده -->
-## اهداف و برنامه‌های آینده
+## Future Goals and Plans
 
-- تکمیل دوره‌های **CCNA** و **MTCNA**.
-- یادگیری عمیق‌تر در **DevOps** و ابزارهای مرتبط.
-- مطالعه معماری‌ها و الگوهای طراحی نرم‌افزار.
-- توسعه اپلیکیشن‌های متنوع و تأسیس شرکت فناوری.
-
----
-
-<!-- آمار گیت‌هاب -->
-## آمار گیت‌هاب
-
-![Github Stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical)
+- Complete **CCNA** and **MTCNA** courses.
+- Learn more about **DevOps** and related tools.
+- Study software architectures and design patterns.
+- Develop diverse applications and establish a technology company.
 
 ---
 
 <!-- تماس با من -->
-## تماس با من
+## Contact me
 
-- **ایمیل:** your-email@example.com
-- **لینکدین:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- **توییتر:** [twitter.com/your-profile](https://twitter.com/your-profile)
+- **email:** your-email@example.com
+- **linkdin:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
