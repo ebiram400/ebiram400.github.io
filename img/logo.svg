@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="36.719925mm"
+   height="11.690653mm"
+   viewBox="0 0 36.719925 11.690653"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="89.161438"
+       y="105.16478"
+       width="646.992"
+       height="217.18813"
+       id="rect1" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-85.68639,-84.218208)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.17987564,0,0,0.19904278,69.336327,60.599857)"
+       id="text1"
+       style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#483e37;fill-rule:evenodd;stroke-width:0"><tspan
+         x="89.162109"
+         y="176.83155"
+         id="tspan4"><tspan
+           style="font-size:96px;font-family:NPIMaryam;-inkscape-font-specification:'NPIMaryam, Normal'"
+           id="tspan1">EBI</tspan></tspan></text>
+  </g>
+</svg>
